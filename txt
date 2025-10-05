@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AHMADALi - Prompts رجال أنيق</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f5f5f5; margin: 0; padding: 20px; }
+        h1 { text-align: center; color: #333; }
+        .prompt { display: flex; flex-direction: column; margin: 10px 0; padding: 12px; background-color: #fff; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        .buttons { display: flex; gap: 10px; margin-top: 5px; }
+        .btn { flex: 1; text-align: center; padding: 8px; border-radius: 6px; text-decoration: none; color: #fff; font-weight: bold; }
+        .pinterest { background-color: #BD081C; }
+        .pexels { background-color: #00B14F; }
+        .btn:hover { opacity: 0.85; }
+        .note { text-align: center; color: #555; margin-top: 20px; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <h1>AHMADALi - Prompts رجال أنيق</h1>
+
+    <!-- جميع الـ100 Prompt -->
+    <div class="prompt">
+        <span>رجل أنيق ببدلة رسمية</span>
+        <div class="buttons">
+            <a class="btn pinterest" href="https://www.pinterest.com/search/pins/?q=رجل%20أنيق%20ببدلة%20رسمية" target="_blank">Pinterest</a>
+            <a class="btn pexels" href="https://www.pexels.com/search/رجل%20أنيق%20ببدلة%20رسمية/" target="_blank">Pexels</a>
+        </div>
+    </div>
+
+    <div class="prompt">
+        <span>رجل عصري تصوير قريب إضاءة سينمائية</span>
+        <div class="buttons">
+            <a class="btn pinterest" href="https://www.pinterest.com/search/pins/?q=رجل%20عصري%20تصوير%20قريب%20إضاءة%20سينمائية" target="_blank">Pinterest</a>
+            <a class="btn pexels" href="https://www.pexels.com/search/رجل%20عصري%20تصوير%20قريب%20إضاءة%20سينمائية/" target="_blank">Pexels</a>
+        </div>
+    </div>
+
+    <!-- كرر نفس النمط لجميع الـ100 Prompt -->
+
+    <div class="note">اضغط على أي زر لفتح البحث مباشرة على Pinterest أو Pexels.</div>
+</body>
+</html>
